@@ -99,8 +99,8 @@ We take our commitment to providing a safe and inclusive workplace seriously. An
 
 def main():
     path = '/home/akshat/oet-handbook/docs'  # Change to your desired path
-    num_folders = 25  # Number of folders to create
-    start_position = 5  # Starting position for sidebar
+    num_folders = 170  # Number of folders to create
+    start_position = 31 # Starting position for sidebar
 
     for i in range(num_folders):
         folder_name = random_string()
