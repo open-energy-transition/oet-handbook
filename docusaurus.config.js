@@ -1,15 +1,16 @@
 // https://docusaurus.io/docs/api/docusaurus-config
 
+const organizationName = "open-energy-transition";
+const projectName = "oet-handbook";
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Handbook",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  url: `https://${organizationName}.github.io`,
+  baseUrl: `/${projectName}/`,
 
   organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
