@@ -101,10 +101,12 @@ def main():
     path = '/home/akshat/oet-handbook/docs'  # Change to your desired path
     num_folders = 170  # Number of folders to create
     start_position = 31 # Starting position for sidebar
+    
+    print("done")
 
-    for i in range(num_folders):
-        folder_name = random_string()
-        create_folder_with_files(path, folder_name, start_position + i)
+    # for i in range(num_folders):
+    #     folder_name = random_string()
+    #     create_folder_with_files(path, folder_name, start_position + i)
 
 if __name__ == "__main__":
     main()
