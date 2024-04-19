@@ -12,7 +12,7 @@ def delete_folders(base_directory, max_deletions):
             files = os.listdir(folder_path)
 
             # Check if the folder has exactly 3 files and contains 'company.jpg'
-            if len(files) == 3 and 'company_image.jpg' in files:
+            if len(files) == 2 :
                 # Delete the folder
                 for file in files:
                     os.remove(os.path.join(folder_path, file))
@@ -32,7 +32,7 @@ def delete_folders(base_directory, max_deletions):
 
 def main():
     base_directory = "/home/akshat/oet-handbook/docs"  # Update this path to your directory
-    max_deletions = 500  # Update this number to how many folders you want to delete
+    max_deletions = 2000  # Update this number to how many folders you want to delete
 
     # Run the function
     delete_folders(base_directory, max_deletions)
