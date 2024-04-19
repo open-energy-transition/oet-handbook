@@ -8,8 +8,8 @@ def random_folder_name(length=12):
     return ''.join(random.choices(string.ascii_uppercase + string.digits, k=length))
 
 def create_folders_with_files(num_folders, source_folder, target_parent_folder):
-    original_files = ['index.mdx', 'fedfewfew.md', 'company_image.jpg'] 
-    sidebar_position = 4000
+    original_files = ['index.mdx', 'fedfewfew.md'] 
+    sidebar_position = 5000
 
     for _ in range(num_folders):
         sidebar_position += 1  # increment sidebar position for each folder
@@ -48,7 +48,7 @@ def create_folders_with_files(num_folders, source_folder, target_parent_folder):
 def main():
     source_folder = '/home/akshat/oet-handbook/docs/template'  # Update this path
     target_parent_folder = '/home/akshat/oet-handbook/docs'  # Update this path
-    create_folders_with_files(100, source_folder, target_parent_folder) 
+    create_folders_with_files(3000, source_folder, target_parent_folder) 
     print("done")
 
 
