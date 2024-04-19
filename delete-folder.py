@@ -32,7 +32,7 @@ def delete_folders(base_directory, max_deletions):
 
 def main():
     base_directory = "/home/akshat/oet-handbook/docs"  # Update this path to your directory
-    max_deletions = 50  # Update this number to how many folders you want to delete
+    max_deletions = 25  # Update this number to how many folders you want to delete
 
     # Run the function
     delete_folders(base_directory, max_deletions)
